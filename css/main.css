@@ -1,0 +1,190 @@
+ @import url(../css/fonts.css);
+
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ img {
+   width: 100%;
+   display: block;
+ }
+
+ .clrfix {
+   clear: both;
+ }
+
+ .container {
+   width: 85%;
+   margin: auto;
+ }
+
+ .p-70 {
+   padding: 70px 0;
+ }
+
+ body {
+   font-family: PoppinsRegular;
+   font-size: 14px;
+ }
+ ::selection {
+  background-color: teal;
+  color: #000;
+ }
+
+ html::-webkit-scrollbar {
+  width: 16px;
+  height: 16px;
+}
+html::-webkit-scrollbar-thumb {
+  background: #434343;
+  border-radius: 16px;
+ }
+html::-webkit-scrollbar-track {
+  background: 
+  linear-gradient(90deg,#434343,#434343 1px,#111 0,rgb(162, 35, 35));
+}
+ /*  */
+ /* .test {
+  width: 50%;
+  height: 200px;
+  background:linear-gradient(to right ,#fff ,  #000 20%, #09c) ;
+ } */
+ /*  
+ .test {
+  padding: 50px;
+  width: 300px;
+  border: 1px solid #000;
+  margin: 100px auto;
+  transition: all .5s;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0px 0px 0px #000;
+  }
+  h1 {
+  font-size:80px;
+  text-shadow: 0px 0px 0px #000;
+ }
+ 
+ .test::after {
+  content: "";
+  width: 0%;
+  height: 0%;
+  background-color: teal;
+  position: absolute;
+  inset: 0;
+  transition: all .5s;
+  z-index: -1;
+  }
+ 
+  .test:hover::after {
+    width: 100%;
+    height: 100%;
+  } */
+
+
+
+ /* h1 {
+  text-align: center;
+  position: relative;
+}
+
+ h1::after {
+  content: "";
+  width: 40%;
+  height: 3px;
+  background-color: #000;
+  position: absolute;
+  top: 50%;
+  right: 0;
+ }
+ 
+ h1::before {
+  content: "";
+   width: 40%;
+  height: 3px;
+  background-color: #000;
+  position: absolute;
+  top: 50%;
+  left: 0;
+ } */
+
+
+
+ /* .item {
+   width: 200px;
+   height: 200px;
+   background-color: #09c;
+   position: absolute;
+   left: 0;
+   top: 0;
+   animation-name: test;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+ }
+
+ @keyframes test {
+   0% {
+     left: 0;
+   }
+
+   50% {
+     left: 200px;
+     background-color: aquamarine;
+   }
+
+   100% {
+     left: 0;
+   }
+ } */
+
+ /* h1 {
+  font-size: 80px;
+ }
+ h1::after {
+  content: "S";
+  animation-name: name;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+ }
+
+ @keyframes name {
+    0%{ content: "S"; }
+    15%{content: "Sa";}
+    30%{content: "Sal";}
+    40%{content: "Sala";}
+    50%{content: "Salah";}
+    65%{content: "Sala";}
+    80%{content: "Sal";}
+    95%{content: "Sa";}
+   100% {  content: "S"; }
+ } */
+
+
+ .watch {
+  width: 30%;
+  margin: 100px auto;
+  text-align: center;
+  background-color: #111;
+}
+.watch .imgWatch {
+  position: relative;
+  overflow: hidden;
+}
+.watch .imgWatch .btn {
+  padding: 25px 30px;
+  border: none;
+  background-color: rgb(152, 34, 34);
+  color: #fff;
+   position: absolute;
+  bottom: -60px;
+  left: 0;
+  right: 0;
+  transition: all .5s;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.watch:hover .imgWatch .btn  {
+  bottom: 0;
+}
